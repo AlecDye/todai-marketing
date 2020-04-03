@@ -1,0 +1,54 @@
+/* Initial mobile styles */
+.container {
+  padding: 0 0.75rem;
+}
+
+#navbar {
+  flex-direction: column;
+  align-items: center;
+}
+
+#navbar .logo {
+  margin-bottom: 0.5rem;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+#navbar ul {
+  padding: 0.5rem;
+}
+
+#navbar ul li a {
+  font-size: 1.2rem;
+}
+
+#showcase .showcase-content {
+  top: 126px;
+}
+
+#how {
+  padding: 0;
+  padding-top: 1rem;
+}
+
+#how h2 {
+  margin: 0;
+  padding: 0;
+}
+
+#how .items {
+  display: block;
+  /* padding: 1rem; */
+}
+
+#contact {
+  padding: 0.5rem;
+}
+
+#contact .contact-form {
+  padding: 1rem;
+}
+
+#main-footer p {
+  font-size: 0.8rem;
+}

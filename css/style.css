@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Patrick+Hand&display=swap");
+/* Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Patrick Hand", cursive;
+  /* font-family: "Nunito", sans-serif; */
+  letter-spacing: 0.25rem;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  color: #444;
+  line-height: 1.4;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin: 0.75rem 0;
+}
+
+/* Utility */
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 2rem;
+  overflow: hidden;
+}
+.text-primary {
+  color: #42b395;
+}
+
+.text-secondary {
+  color: #c27f79;
+}
+
+.bg-primary {
+  background: #42b395;
+  color: #fff;
+}
+
+.bg-secondary {
+  background: #c27f79;
+  color: #fff;
+}
+
+.l-heading {
+  font-size: 4rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.1;
+}
+
+.m-heading {
+  font-size: 2.5rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.1;
+}
+
+.s-heading {
+  font-size: 1.8rem;
+  margin-bottom: 1.2rem;
+  line-height: 1.1;
+}
+
+.lead {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  border: none;
+  padding: 0.5rem 2rem;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.btn:hover {
+  background: #c27f79;
+}
+
+/* Padding */
+
+.p-1 {
+  padding: 1.5rem;
+}
+
+.p-2 {
+  padding: 2rem;
+}
+
+.p-3 {
+  padding: 3rem;
+}
+
+.py-1 {
+  padding: 1.5rem 0;
+}
+
+.py-2 {
+  padding: 2rem 0;
+}
+
+.py-3 {
+  padding: 3rem 0;
+}
+
+/* Navbar */
+#navbar {
+  display: flex;
+  position: sticky;
+  top: 0;
+  justify-content: space-between;
+  z-index: 1;
+  padding: 1rem;
+}
+
+#navbar .logo a {
+  color: #fff;
+}
+
+#navbar .logo i {
+  margin-left: 0.25rem;
+  color: #c27f79;
+  background: #fff;
+  padding: 0.5rem;
+  border-radius: 50%;
+}
+
+#navbar .logo i:hover {
+  background: #c27f79;
+  color: #fff;
+}
+
+#navbar ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+#navbar ul li a {
+  color: #fff;
+  padding: 0.75rem;
+  margin: 0 0.25rem;
+}
+
+#navbar ul li a:hover {
+  background: #c27f79;
+  border-radius: 5px;
+}
+
+/* Showcase */
+#showcase {
+  background: url("../svg/MeditatingDoodle.svg") no-repeat center center/cover;
+  height: 100vh;
+  color: #fff;
+}
+
+#showcase .showcase-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 0 2rem;
+  /* Overlay */
+  position: absolute;
+  top: 72px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+#showcase .showcase-content span {
+  border-bottom: 2px solid #fff;
+}
+
+/* Section: How it works */
+#how .items {
+  display: flex;
+  padding: 1rem;
+}
+
+#how .items .item {
+  flex: 1;
+  text-align: center;
+  padding: 1rem;
+}
+
+#how .items .item img {
+  display: block;
+  margin: auto;
+  background: #fff;
+  border-radius: 5px;
+}
+
+#how .items .item:nth-child(2) {
+  background: #c27f79;
+  color: #fff;
+  border-radius: 5px;
+}
+
+/* Section: Contact */
+#contact {
+  display: flex;
+  justify-content: center;
+  background: #c0c0c0;
+  color: #fff;
+}
+
+#contact .contact-form {
+  padding: 2rem;
+}
+
+#contact .contact-form h2,
+#contact .contact-form p {
+  text-align: center;
+}
+
+#contact .contact-form .form-group {
+  margin: 0.75rem;
+}
+
+#contact .contact-form label {
+  display: block;
+}
+
+#contact .contact-form input,
+#contact .contact-form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  font-family: "Lato", sans-serif;
+}
+
+#contact .contact-form input:focus,
+#contact .contact-form textarea:focus {
+  outline-color: #c27f79;
+} */
