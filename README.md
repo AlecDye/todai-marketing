@@ -3,8 +3,8 @@
 
 ## Links
 
-[Live Site](https://todai-marketing-ad.netlify.com/)
-[Github Repo](https://github.com/AlecDye/todai-marketing)
+- [Live Site](https://todai-marketing-ad.netlify.com/)
+- [Github Repo](https://github.com/AlecDye/todai-marketing)
 
 ## Brief
 
