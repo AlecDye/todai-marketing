@@ -6,8 +6,6 @@
 [Live Site](https://todai-marketing-ad.netlify.com/)
 [Github Repo](https://github.com/AlecDye/todai-marketing)
 
----
-
 ## H2 Brief
 
 Static marketing page for fictional *Tōdai* lifestyle journaling app. Responsive mobile-first design with minimal style to suit the theme of the product. Unobtrusive with a relaxed personal tone.
